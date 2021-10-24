@@ -1,0 +1,10 @@
+{
+    "$schema": "https://on.cypress.io/cypress.json",
+    "integrationFolder": "cypress/TestesDesafio",
+    "baseUrl": "https://demo.realworld.io/#/",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}
+
