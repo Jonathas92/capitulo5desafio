@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-24T14:36:45.228Z",
+    "end": "2021-10-24T14:36:51.529Z",
+    "duration": 6301,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "05a1ea76-df6e-49de-a18a-ca12b9ee261f",
+      "title": "",
+      "fullFile": "cypress/TestesDesafio/PreenchimentoArtigo.spec.js",
+      "file": "cypress/TestesDesafio/PreenchimentoArtigo.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "21172e4f-7b2f-4d6d-882a-0a5816983000",
+          "title": "Artigo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validação de um novo cadastro de artigo com sucesso",
+              "fullTitle": "Artigo Validação de um novo cadastro de artigo com sucesso",
+              "timedOut": null,
+              "duration": 6205,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// fluxo de criação de formulário\n_artigo.default.AcessarOForulario(); //criação do formulário\n\n_artigo.default.preencherFormulario(); //confirmar o formulário clicando no botão de confirmar\n\n_artigo.default.submeterFormulario(); //verifica se o artigo foi criado.\n\n_artigo.default.VerificarArtigoCriado();",
+              "err": {},
+              "uuid": "e296875d-f2a3-411c-bca8-ebfc4535d487",
+              "parentUUID": "21172e4f-7b2f-4d6d-882a-0a5816983000",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e296875d-f2a3-411c-bca8-ebfc4535d487"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6205,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
