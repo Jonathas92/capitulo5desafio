@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-03T22:07:55.064Z",
-    "end": "2021-11-03T22:08:01.370Z",
-    "duration": 6306,
+    "start": "2021-11-03T22:08:22.992Z",
+    "end": "2021-11-03T22:08:28.521Z",
+    "duration": 5529,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "390b0f5c-7b47-4435-85c0-5cb603dbb69a",
+      "uuid": "dd5795ce-1752-47bc-9311-c16b898e0155",
       "title": "",
       "fullFile": "cypress/TestesDesafio/PreenchimentoArtigo.spec.js",
       "file": "cypress/TestesDesafio/PreenchimentoArtigo.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "016a0883-4203-404f-90e2-f223122e6511",
+          "uuid": "4fa0515e-0084-4e65-9c47-83364261e7e5",
           "title": "Artigo",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validação de um novo cadastro de artigo com sucesso",
               "fullTitle": "Artigo Validação de um novo cadastro de artigo com sucesso",
               "timedOut": null,
-              "duration": 6152,
+              "duration": 5431,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "// fluxo de criação de formulário\n_artigo.default.AcessarOForulario(); //criação do formulário\n\n_artigo.default.preencherFormulario(); //confirmar o formulário clicando no botão de confirmar\n\n_artigo.default.submeterFormulario(); //verifica se o artigo foi criado.\n\n_artigo.default.VerificarArtigoCriado();",
               "err": {},
-              "uuid": "36eba4de-11e9-477a-b783-bfa2a8f4d379",
-              "parentUUID": "016a0883-4203-404f-90e2-f223122e6511",
+              "uuid": "ce038f18-292a-4917-a811-b03b8bbfaadb",
+              "parentUUID": "4fa0515e-0084-4e65-9c47-83364261e7e5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "36eba4de-11e9-477a-b783-bfa2a8f4d379"
+            "ce038f18-292a-4917-a811-b03b8bbfaadb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6152,
+          "duration": 5431,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
