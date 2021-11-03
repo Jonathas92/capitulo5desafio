@@ -22,4 +22,3 @@ npm install -D cypress@8.5.0
 
 ![Badge](https://img.shields.io/static/v1?label=cypress&message=v8.5.0&color=7159c1&style=for-the-badge&logo=GHOST)
 
-https://img.shields.io/static/v1?label=cypress&message=v8.5.0&color=7159c1&style=for-the-badge&logo=GHOST
